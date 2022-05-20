@@ -1,5 +1,3 @@
-from tkinter import CASCADE
-from xmlrpc.client import Boolean
 from sqlalchemy import TIMESTAMP, Column, ForeignKey, Integer, String, Boolean
 from sqlalchemy.sql.expression import text
 from sqlalchemy.orm import relationship
