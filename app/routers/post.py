@@ -1,4 +1,3 @@
-from turtle import pos
 from .. import models, schemas, oauth2
 from ..database import get_db 
 from fastapi import FastAPI, Response, status, HTTPException, Depends, APIRouter
